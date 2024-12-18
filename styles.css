@@ -1,0 +1,58 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f02fb0;
+    color: white;
+    padding: 10px 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+nav ul {
+    display: flex;
+    justify-content: right;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    color: white;
+    background-color:palevioletred;
+}
+
+nav ul li {
+    margin: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: rgb(124, 23, 40);
+}
+.logo {
+    color: #fff;
+    font-size: 24px;
+}
+
+.photos {
+    display: flex; /* Use flexbox for better alignment */
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+    justify-content: center; /* Center align items */
+}
+
+img {
+    margin: 10px; /* Add space between images */
+    border-radius: 8px; /* Rounded corners for images */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Soft shadow effect */
+}
